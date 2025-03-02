@@ -1,0 +1,63 @@
+
+# Compilação e arquivos de build
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de build
+/bin/
+/build/
+/target/
+out/
+
+# Dependências baixadas pelo Maven
+.mvn/
+!**/src/main/**/.mvn/
+!**/src/test/**/.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Dependências baixadas pelo Gradle
+.gradle/
+build.gradle
+build.gradle.kts
+gradlew
+gradlew.bat
+gradle/
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configurações do Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# Arquivos do VS Code
+.vscode/
+
+# Logs e arquivos temporários
+*.log
+hs_err_pid*
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+*.properties
+
+# Banco de dados local
+*.db
+*.sqlite
